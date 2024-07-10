@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*Author: Joanie Weber
+  Date: 7/7/2024
+  Assignment: Cheech's Flexible Pizza Parlor
+  Filename: styles.css */
+
+h1 {
+  text-align: center;
+  color: tomato;
+}
+
+li {
+  display: inline;
+}
+
+body {
+  border: 2px solid black;
+  padding: 25px;
+  background: url(photo10.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+ul,
+a {
+  color: white;
+  background-color: black;
+}
+
+form {
+  color: white;
+}
+
+p {
+  color: tomato;
+}
+
+footer {
+  background-color: black;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-container>div {
+  margin: 10px;
+  padding: 20px;
+  font-size: large;
+  font-weight: bold;
+}
